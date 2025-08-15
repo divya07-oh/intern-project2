@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html,
+body{
+     font-family: "Inter" ,sans-serif;
+     font-weight: 400;
+}
+
+.main{
+    height:100vh;
+    width: 100%;
+    background-color: #9B7E4B;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #331e14;
+}
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav img{
+    height: 50px;
+    width: auto;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.nav-part-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+.nav-part-1 ul li{
+    margin-right:40px ;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.nav-part-2 i{
+    margin-right: 40px;
+    font-size: 21px;
+}
+.content{
+    height: calc(100%- 110%);
+    width:100%;
+    position: relative; 
+    display: flex;
+
+}
+
+.content-left{
+    height:100%;
+    width: 40%;
+    padding: 80px 100px;
+}
+.content-left h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 10PX;
+}
+.content-left h1{
+   font-size: 50px;
+   text-transform: uppercase;
+   color: #270f05;
+}
+.content-left p{
+    font-size: 16px;
+    color: #000000;
+    width: 150%;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: #1f0400;
+    color: #ffff;
+    font-size: 15px;
+    padding: 8px 35px;
+    font-weight: 600%;
+    border: none;
+    border-radius: 30px;
+}
+.content-right{
+    height: 100%;
+    width: 60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.product{
+    height: 350px;
+    width: 225px;
+    background-color:#cfaf78;
+    position: relative;
+    box-shadow: 0 5px 10px #80683f;
+}
+.product img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    bottom: 20%;
+
+}
+.content-right::-webkit-scrollbar-track{
+    display: none;
+}
+.product{
+    display: inline-block;
+    margin-right: 20px;
+}
